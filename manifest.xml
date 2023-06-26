@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="ztr" fetch="https://github.com/MisterZtr/" />
+<remote name="gitlab" fetch="https://gitlab.com/MisterZtr/" />
+<remote name="mokee" fetch="https://github.com/MoKee/" />
+
+<project path="device/meizu/m1852" name="android_device_meizu_m1852" remote="ztr" revision="aosp-11" />
+<project path="vendor/meizu/m1852" name="android_vendor_meizu_m1852" remote="ztr" revision="R" />
+<project path="firmware/meizu/m1852" name="android_firmware_meizu_m1852" remote="gitlab" revision="R" />
+<project path="kernel/meizu/m1852" name="android_kernel_meizu_sdm710" remote="mokee" revision="mkq-mr1" />
+</manifest>
